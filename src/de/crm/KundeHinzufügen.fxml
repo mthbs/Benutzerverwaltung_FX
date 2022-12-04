@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.crm.KundeHinzufügenController">
+   <children>
+      <Label layoutX="229.0" layoutY="14.0" text="Neuen Kunden hinzufügen" />
+      <Label layoutX="62.0" layoutY="71.0" text="Vorname*:" />
+      <Label layoutX="62.0" layoutY="133.0" text="Name*:" />
+      <Label layoutX="62.0" layoutY="192.0" text="E-Mail*:" />
+      <Label layoutX="62.0" layoutY="253.0" text="Stadt:" />
+      <TextField fx:id="new_vorname" layoutX="155.0" layoutY="67.0" prefHeight="25.0" prefWidth="360.0" />
+      <TextField fx:id="new_name" layoutX="155.0" layoutY="129.0" prefHeight="25.0" prefWidth="360.0" />
+      <TextField fx:id="new_email" layoutX="155.0" layoutY="188.0" prefHeight="25.0" prefWidth="360.0" />
+      <TextField fx:id="new_stadt" layoutX="155.0" layoutY="249.0" prefHeight="25.0" prefWidth="360.0" />
+      <Button layoutX="155.0" layoutY="320.0" mnemonicParsing="false" onAction="#btnSpeichern" text="Speichern" />
+      <Button layoutX="441.0" layoutY="320.0" mnemonicParsing="false" onAction="#btnAbbrechen" text="Abbrechen" />
+      <Label fx:id="err_label" layoutX="257.0" layoutY="31.0" text="Es läuft alles gut">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

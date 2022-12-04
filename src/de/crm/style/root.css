@@ -1,0 +1,12 @@
+.root{
+    -fx-background-color: lightsalmon;
+}
+.button{
+    -fx-border-style: solid;
+    -fx-border-color: lightsalmon;
+    -fx-border-width: 0.8;
+    -fx-text-fill: white;
+    -fx-background-color: blue;
+    -fx-border-radius: 5%;
+    -fx-background-radius: 15%;
+}
